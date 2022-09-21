@@ -62,7 +62,6 @@ img {
 }
 .card {
   flex-basis: 25%;
-  height: 400px;
   flex-grow: 1;
   border: 1px solid black;
   background-color: rgb(232, 245, 249);
@@ -73,16 +72,18 @@ img {
 .title {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: oblique;
-  font-size: 20px;
-  text-align: center ;
+  font-size: 24px;
+  text-align: center;
   padding: 10px;
+  
 }
 
 .description {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 10px;
+  font-size: 1em;
   text-align: center;
   margin: 1em;
+  line-height: 150%;
 }
 
 .clearfix {
